@@ -6,6 +6,10 @@ a {
   color: #fff;
 }
 
+.nav-color {
+  background-color: rgb(70, 88, 88);
+}
+
 a:hover {
   color: #ddd;
   text-decoration: none;
@@ -29,7 +33,7 @@ p {
   color: #343a40;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:575px) {
   .row {
     margin-bottom: 30px;
   }
